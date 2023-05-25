@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier:fix": "prettier --write ./src/**/*.{ts,css,html}"
   },
   "devDependencies": {
+    "prettier": "^2.8.8",
     "vite": "^4.3.2"
   }
 }
