@@ -1,0 +1,41 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.text-area {
+  position: absolute;
+  background: #111;
+  border: 1px solid #222;
+  padding: 15px;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: right;
+}
+
+.text-area h1 {
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.text-area p {
+  font-size: 10px;
+  line-height: 1;
+}
+
+.text-area a {
+  color: white;
+}
